@@ -26,6 +26,9 @@ https://github.com/Keen-Sheen/Swivel_Audit/blob/5eb11ab79ac3bcbe1165d2fcbb6062e4
 https://github.com/Keen-Sheen/Swivel_Audit/blob/0ba71e0233714ff98fba5a152dafd6c0953c01b0/2022-07-swivel/Tokens/LibFuse.sol#L38
 
 
+------------------------------------------------------
+
+
 ## Interfaces cannot inherit 
 
 ![A Call Graph of Interfaces.sol](Inheritance_Graph.svg)
