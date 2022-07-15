@@ -30,8 +30,11 @@ https://github.com/Keen-Sheen/Swivel_Audit/blob/0ba71e0233714ff98fba5a152dafd6c0
 
 ## Interfaces cannot inherit [SWC-125](https://swcregistry.io/docs/SWC-125)
 
-![A Call Graph of Interfaces.sol](Inheritance_Graph.svg)
+* Solidity supports multiple inheritance, meaning that one contract can inherit several contracts. Multiple inheritance introduces ambiguity called Diamond Problem. If two or more base contracts define the same function, which one should be called in the child contract? Solidity deals with this ambiguity by using reverse C3 Linearization, which sets a priority between base contracts.
 
+That way, base contracts have different priorities, so the order of inheritance matters. Neglecting inheritance order can lead to unexpected behavior
+
+![A Call Graph of Interfaces.sol](Inheritance_Graph.svg)
 
 ## Incorrect Inheritance Order
 
