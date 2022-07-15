@@ -18,6 +18,7 @@ Below is a "Call Graph" of the Swivel Token. This call graph shows the `LibFuse.
 -----------------------------------------------------
 
 ## Weak Sources of Randomness from Chain Attributes [SWC-120](https://swcregistry.io/docs/SWC-120)
+## Use of Insufficiently Random Values
 
 
 https://github.com/Keen-Sheen/Swivel_Audit/blob/5eb11ab79ac3bcbe1165d2fcbb6062e42d7ac5b7/2022-07-swivel/Tokens/LibFuse.sol#L19
