@@ -1,0 +1,191 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="762pt" height="587pt" viewBox="0.00 0.00 761.72 587">
+<g id="graph0" class="graph" transform="translate(4,583) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-583 757.72,-583 757.72,4 -4,4"/>
+<g id="clust3" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="58.08,-402 58.08,-531 402.74,-531 402.74,-402 58.08,-402" style=""/>
+<text text-anchor="middle" x="230.41" y="-514.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterICERC20">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M493.31,-8C493.31,-8 733.72,-8 733.72,-8 739.72,-8 745.72,-14 745.72,-20 745.72,-20 745.72,-559 745.72,-559 745.72,-565 739.72,-571 733.72,-571 733.72,-571 493.31,-571 493.31,-571 487.31,-571 481.31,-565 481.31,-559 481.31,-559 481.31,-20 481.31,-20 481.31,-14 487.31,-8 493.31,-8" style=""/>
+<text text-anchor="middle" x="613.52" y="-554.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ICERC20</text>
+</g>
+<g id="clust1" class="cluster" data-name="clusterLibCompound">
+
+<path fill="#445773" stroke="#445773" d="M20,-251C20,-251 449.31,-251 449.31,-251 455.31,-251 461.31,-257 461.31,-263 461.31,-263 461.31,-316 461.31,-316 461.31,-322 455.31,-328 449.31,-328 449.31,-328 20,-328 20,-328 14,-328 8,-322 8,-316 8,-316 8,-263 8,-263 8,-257 14,-251 20,-251" style=""/>
+<text text-anchor="middle" x="234.66" y="-311.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">LibCompound  (lib)</text>
+</g>
+<!-- LibCompound.viewUnderlyingBalanceOf -->
+<g id="node1" class="node" pointer-events="visible" data-name="LibCompound.viewUnderlyingBalanceOf">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="131.08" cy="-277" rx="115.16" ry="18"/>
+<text text-anchor="middle" x="131.08" y="-272.8" font-family="Times,serif" font-size="14.00">viewUnderlyingBalanceOf</text>
+</g>
+<!-- LibCompound.viewExchangeRate --><g id="edge2" class="edge" data-name="LibCompound.viewUnderlyingBalanceOf-&gt;LibCompound.viewExchangeRate" data-comment="LibCompound.viewExchangeRate">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M246.31,-277C254.85,-277 263.41,-277 271.8,-277"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="271.96,-280.5 281.96,-277 271.96,-273.5 271.96,-280.5"/>
+</g>
+<g id="node2" class="node" pointer-events="visible" data-name="LibCompound.viewExchangeRate">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="367.74" cy="-277" rx="85.65" ry="18"/>
+<text text-anchor="middle" x="367.74" y="-272.8" font-family="Times,serif" font-size="14.00">viewExchangeRate</text>
+</g>
+<!-- LibCompound.viewUnderlyingBalanceOf&#45;&gt;LibCompound.viewExchangeRate -->
+
+<!-- ICERC20.balanceOf --><g id="edge1" class="edge" data-name="LibCompound.viewUnderlyingBalanceOf-&gt;ICERC20.balanceOf" data-comment="ICERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M154.28,-259.32C207.42,-217.93 347.49,-114.21 481.31,-61 504.65,-51.72 531.66,-45.46 555.08,-41.33"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="555.93,-44.74 565.21,-39.63 554.77,-37.83 555.93,-44.74"/>
+</g>
+<g id="node3" class="node" pointer-events="visible" data-name="ICERC20.balanceOf">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="613.52" cy="-34" rx="50.92" ry="18"/>
+<text text-anchor="middle" x="613.52" y="-29.8" font-family="Times,serif" font-size="14.00">balanceOf</text>
+</g>
+<!-- LibCompound.viewUnderlyingBalanceOf&#45;&gt;ICERC20.balanceOf -->
+
+<!-- ICERC20.accrualBlockNumber --><g id="edge3" class="edge" data-name="LibCompound.viewExchangeRate-&gt;ICERC20.accrualBlockNumber" data-comment="ICERC20.accrualBlockNumber">
+
+<path fill="none" stroke="white" stroke-width="2" d="M384.37,-295.03C403.83,-317.98 437.4,-359.3 461.31,-398 471.97,-415.25 465.29,-426.57 481.31,-439 491.49,-446.9 503.4,-452.64 515.82,-456.79"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="514.82,-460.14 525.4,-459.67 516.83,-453.44 514.82,-460.14"/>
+</g>
+<g id="node4" class="node" pointer-events="visible" data-name="ICERC20.accrualBlockNumber">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="613.52" cy="-466" rx="93.74" ry="18"/>
+<text text-anchor="middle" x="613.52" y="-461.8" font-family="Times,serif" font-size="14.00">accrualBlockNumber</text>
+</g>
+<!-- LibCompound.viewExchangeRate&#45;&gt;ICERC20.accrualBlockNumber -->
+
+<!-- ICERC20.exchangeRateStored --><g id="edge4" class="edge" data-name="LibCompound.viewExchangeRate-&gt;ICERC20.exchangeRateStored" data-comment="ICERC20.exchangeRateStored">
+
+<path fill="none" stroke="white" stroke-width="2" d="M382.16,-295.14C401.3,-319.61 438.87,-362.7 481.31,-385 494.57,-391.97 509.46,-397.14 524.32,-400.97"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="523.52,-404.38 534.06,-403.31 525.15,-397.57 523.52,-404.38"/>
+</g>
+<g id="node5" class="node" pointer-events="visible" data-name="ICERC20.exchangeRateStored">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="613.52" cy="-412" rx="90.31" ry="18"/>
+<text text-anchor="middle" x="613.52" y="-407.8" font-family="Times,serif" font-size="14.00">exchangeRateStored</text>
+</g>
+<!-- LibCompound.viewExchangeRate&#45;&gt;ICERC20.exchangeRateStored -->
+
+<!-- ICERC20.underlying --><g id="edge5" class="edge" data-name="LibCompound.viewExchangeRate-&gt;ICERC20.underlying" data-comment="ICERC20.underlying">
+
+<path fill="none" stroke="white" stroke-width="2" d="M398.94,-293.99C421.14,-305.85 452.35,-321.24 481.31,-331 504.83,-338.93 531.54,-344.94 554.69,-349.25"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="554.25,-352.73 564.71,-351.05 555.49,-345.84 554.25,-352.73"/>
+</g>
+<g id="node6" class="node" pointer-events="visible" data-name="ICERC20.underlying">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="613.52" cy="-358" rx="52.75" ry="18"/>
+<text text-anchor="middle" x="613.52" y="-353.8" font-family="Times,serif" font-size="14.00">underlying</text>
+</g>
+<!-- LibCompound.viewExchangeRate&#45;&gt;ICERC20.underlying -->
+
+<!-- ICERC20.totalBorrows --><g id="edge6" class="edge" data-name="LibCompound.viewExchangeRate-&gt;ICERC20.totalBorrows" data-comment="ICERC20.totalBorrows">
+
+<path fill="none" stroke="white" stroke-width="2" d="M443.87,-285.32C476.44,-288.93 514.25,-293.12 545.82,-296.61"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="545.5,-300.1 555.83,-297.72 546.27,-293.14 545.5,-300.1"/>
+</g>
+<g id="node7" class="node" pointer-events="visible" data-name="ICERC20.totalBorrows">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="613.52" cy="-304" rx="61.42" ry="18"/>
+<text text-anchor="middle" x="613.52" y="-299.8" font-family="Times,serif" font-size="14.00">totalBorrows</text>
+</g>
+<!-- LibCompound.viewExchangeRate&#45;&gt;ICERC20.totalBorrows -->
+<!-- LibCompound.viewExchangeRate&#45;&gt;ICERC20.totalReserves -->
+<!-- ICERC20.totalReserves --><g id="edge7" class="edge" data-name="LibCompound.viewExchangeRate-&gt;ICERC20.totalReserves" data-comment="ICERC20.totalReserves">
+
+<path fill="none" stroke="white" stroke-width="2" d="M443.87,-268.68C475.79,-265.14 512.76,-261.05 543.94,-257.6"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="544.72,-261.03 554.27,-256.45 543.95,-254.07 544.72,-261.03"/>
+</g>
+<g id="node8" class="node" pointer-events="visible" data-name="ICERC20.totalReserves">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="613.52" cy="-250" rx="63.12" ry="18"/>
+<text text-anchor="middle" x="613.52" y="-245.8" font-family="Times,serif" font-size="14.00">totalReserves</text>
+</g><!-- ICERC20.interestRateModel -->
+<g id="node9" class="node" pointer-events="visible" data-name="ICERC20.interestRateModel">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="613.52" cy="-196" rx="82.24" ry="18"/>
+<text text-anchor="middle" x="613.52" y="-191.8" font-family="Times,serif" font-size="14.00">interestRateModel</text>
+</g>
+<!-- LibCompound.viewExchangeRate&#45;&gt;ICERC20.interestRateModel -->
+<g id="edge8" class="edge" data-name="LibCompound.viewExchangeRate-&gt;ICERC20.interestRateModel">
+
+<path fill="none" stroke="white" stroke-width="2" d="M398.94,-260.01C421.14,-248.15 452.35,-232.76 481.31,-223 498.7,-217.14 517.83,-212.33 535.98,-208.47"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="536.85,-211.87 545.94,-206.43 535.44,-205.01 536.85,-211.87"/>
+</g>
+<!-- ICERC20.reserveFactorMantissa -->
+<g id="node10" class="node" pointer-events="visible" data-name="ICERC20.reserveFactorMantissa">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="613.52" cy="-142" rx="98.41" ry="18"/>
+<text text-anchor="middle" x="613.52" y="-137.8" font-family="Times,serif" font-size="14.00">reserveFactorMantissa</text>
+</g>
+<!-- LibCompound.viewExchangeRate&#45;&gt;ICERC20.reserveFactorMantissa -->
+<g id="edge9" class="edge" data-name="LibCompound.viewExchangeRate-&gt;ICERC20.reserveFactorMantissa">
+
+<path fill="none" stroke="white" stroke-width="2" d="M382.16,-258.86C401.3,-234.39 438.87,-191.3 481.31,-169 493.32,-162.69 506.67,-157.85 520.13,-154.15"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="521.1,-157.51 529.93,-151.64 519.37,-150.73 521.1,-157.51"/>
+</g>
+<!-- ICERC20.totalSupply -->
+<g id="node11" class="node" pointer-events="visible" data-name="ICERC20.totalSupply">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="613.52" cy="-88" rx="55.64" ry="18"/>
+<text text-anchor="middle" x="613.52" y="-83.8" font-family="Times,serif" font-size="14.00">totalSupply</text>
+</g>
+<!-- LibCompound.viewExchangeRate&#45;&gt;ICERC20.totalSupply -->
+<g id="edge10" class="edge" data-name="LibCompound.viewExchangeRate-&gt;ICERC20.totalSupply">
+
+<path fill="none" stroke="white" stroke-width="2" d="M378.93,-258.99C400.88,-220.81 452.94,-133.72 481.31,-115 500.92,-102.06 525.49,-95.13 548.04,-91.48"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="548.84,-94.9 558.24,-90.02 547.85,-87.97 548.84,-94.9"/>
+</g>
+<!-- ICERC20.initialExchangeRateMantissa -->
+<g id="node12" class="node" pointer-events="visible" data-name="ICERC20.initialExchangeRateMantissa">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="613.52" cy="-520" rx="124.41" ry="18"/>
+<text text-anchor="middle" x="613.52" y="-515.8" font-family="Times,serif" font-size="14.00">initialExchangeRateMantissa</text>
+</g>
+<!-- LibCompound.viewExchangeRate&#45;&gt;ICERC20.initialExchangeRateMantissa -->
+<g id="edge11" class="edge" data-name="LibCompound.viewExchangeRate-&gt;ICERC20.initialExchangeRateMantissa">
+
+<path fill="none" stroke="white" stroke-width="2" d="M386.71,-294.96C407.89,-317.18 442.55,-357.13 461.31,-398 479.31,-437.21 450.73,-462.56 481.31,-493 486.52,-498.19 492.45,-502.51 498.84,-506.09"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="497.29,-509.23 507.8,-510.54 500.4,-502.96 497.29,-509.23"/>
+</g>
+<!-- key -->
+<g id="node13" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="196.08,-498 66.08,-498 66.08,-410 196.08,-410 196.08,-498"/>
+<text text-anchor="start" x="115.72" y="-479.4" font-family="Times,serif" font-size="14.00">Internal Call</text>
+<text text-anchor="start" x="111.83" y="-459.4" font-family="Times,serif" font-size="14.00">External Call</text>
+<text text-anchor="start" x="89.28" y="-439.4" font-family="Times,serif" font-size="14.00">Defined Contract</text>
+<text text-anchor="start" x="75.68" y="-419.4" font-family="Times,serif" font-size="14.00">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node14" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="394.74,-498 340.74,-498 340.74,-410 394.74,-410 394.74,-498"/>
+<text text-anchor="start" x="357.74" y="-479.4" font-family="Times,serif" font-size="14.00">   </text>
+<text text-anchor="start" x="357.74" y="-459.4" font-family="Times,serif" font-size="14.00">   </text>
+<polygon fill="#445773" stroke="transparent" points="355.74,-434 355.74,-454 380.74,-454 380.74,-434 355.74,-434"/>
+<text text-anchor="start" x="357.74" y="-439.4" font-family="Times,serif" font-size="14.00">   </text>
+<polygon fill="none" stroke="#e8726d" points="357.74,-416 357.74,-432 378.74,-432 378.74,-416 357.74,-416"/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge12" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M189.08,-484C259.25,-484 279.26,-484 344.73,-484"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="344.74,-487.5 354.74,-484 344.74,-480.5 344.74,-487.5"/>
+</g>
+
+<!-- key&#45;&gt;key2 -->
+
+
+<g id="edge13" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M189.08,-464C259.25,-464 279.26,-464 344.73,-464"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="344.74,-467.5 354.74,-464 344.74,-460.5 344.74,-467.5"/>
+</g>
+</g>
+</svg>
