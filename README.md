@@ -9,7 +9,7 @@ Audit of Swivle
 
 
 
-
+            interestAccumulated = (borrowRateMantissa * (block.number - accrualBlockNumberPrior)).mulWadDown(
 
 
 
