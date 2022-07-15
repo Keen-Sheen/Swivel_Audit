@@ -1,7 +1,7 @@
 # Swivle_Audit
 Audit of Swivle
 
-![A Call Graph of LibFuse]()
+![A Call Graph of LibFuse](ICERC20_Graph.svg)
 
 
 
