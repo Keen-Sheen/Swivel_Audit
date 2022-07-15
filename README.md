@@ -7,10 +7,15 @@ Below is a "Call Graph" of the Swivel Token. This call graph shows the `LibFuse.
 ![A Call Graph of LibFuse](ICERC20_Graph.svg)
 
 
+--------------------------------------------------
+
+
 ## Potential use of "block.number" as source of randonmness.
 
   * The environment variable "block.number" looks like it could be used as a source of randomness. The values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Developers shouldnt use any of those environment variables as sources of randomness and should also be aware that the use of these variables introduces a certain level of trust into miners.
 
+
+-----------------------------------------------------
 
 ## Weak Sources of Randomness from Chain Attributes [SWC-120](https://swcregistry.io/docs/SWC-120)
 
