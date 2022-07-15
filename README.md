@@ -2,7 +2,7 @@
 
 ## Audit of Swivle
 
-Below is a "Call Graph" of the Swivel Token. This call graph shows the `LibFuse.sol` file which has the block.number contained within it.
+Below is a "Call Graph" of the Swivel Token. This call graph shows the `LibFuse.sol` file which has the `block.number` contained within it.
 
 ![A Call Graph of LibFuse](ICERC20_Graph.svg)
 
