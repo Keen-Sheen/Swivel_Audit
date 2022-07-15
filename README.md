@@ -28,6 +28,8 @@ https://github.com/Keen-Sheen/Swivel_Audit/blob/0ba71e0233714ff98fba5a152dafd6c0
 
 ## Interfaces cannot inherit 
 
+![A Call Graph of Interfaces.sol](Inheritance_Graph.svg)
+
 https://github.com/Keen-Sheen/Swivel_Audit/blob/dbf3c46aeca86fbdd337d8fa7ca8cd62fe9115fc/2022-07-swivel/Tokens/Interfaces.sol#L35
 
 ## Prevention 
