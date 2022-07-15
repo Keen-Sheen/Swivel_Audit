@@ -24,3 +24,12 @@ Below is a "Call Graph" of the Swivel Token. This call graph shows the `LibFuse.
 https://github.com/Keen-Sheen/Swivel_Audit/blob/5eb11ab79ac3bcbe1165d2fcbb6062e42d7ac5b7/2022-07-swivel/Tokens/LibFuse.sol#L19
 
 https://github.com/Keen-Sheen/Swivel_Audit/blob/0ba71e0233714ff98fba5a152dafd6c0953c01b0/2022-07-swivel/Tokens/LibFuse.sol#L38
+
+
+## Prevention 
+
+* Using commitment scheme, e.g. RANDAO.
+
+* Using external sources of randomness via oracles, e.g. Oraclize. Note that this approach requires trusting in oracle, thus it may be reasonable to use multiple oracles.
+
+* Using Bitcoin block hashes, as they are more expensive to mine.
