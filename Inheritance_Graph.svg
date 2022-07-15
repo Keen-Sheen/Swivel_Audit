@@ -1,0 +1,232 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="843pt" height="809pt" viewBox="0.00 0.00 843 809">
+<g id="graph0" class="graph" transform="translate(185.06317037778695,552.0440209817566) scale(0.6170882282740633)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-805 839,-805 839,4 -4,4"/>
+<g id="clust3" class="cluster" data-name="clusterICERC20">
+
+<path fill="#445773" stroke="#445773" d="M12.24,-68.14C12.24,-68.14 518.24,-68.14 518.24,-68.14 524.24,-68.14 530.24,-74.14 530.24,-80.14 530.24,-80.14 530.24,-519.14 530.24,-519.14 530.24,-525.14 524.24,-531.14 518.24,-531.14 518.24,-531.14 12.24,-531.14 12.24,-531.14 6.24,-531.14 0.24,-525.14 0.24,-519.14 0.24,-519.14 0.24,-80.14 0.24,-80.14 0.24,-74.14 6.24,-68.14 12.24,-68.14" style=""/>
+<text text-anchor="middle" x="265.24" y="-514.54" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ICERC20  (iface)</text>
+</g>
+<g id="clust4" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="577.74,-0.14 577.74,-143.14 786.74,-143.14 786.74,-0.14 577.74,-0.14" style=""/>
+<text text-anchor="middle" x="682.24" y="-126.54" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterIErc20">
+
+<path fill="#445773" stroke="#445773" d="M555.74,-578.14C555.74,-578.14 822.74,-578.14 822.74,-578.14 828.74,-578.14 834.74,-584.14 834.74,-590.14 834.74,-590.14 834.74,-789.14 834.74,-789.14 834.74,-795.14 828.74,-801.14 822.74,-801.14 822.74,-801.14 555.74,-801.14 555.74,-801.14 549.74,-801.14 543.74,-795.14 543.74,-789.14 543.74,-789.14 543.74,-590.14 543.74,-590.14 543.74,-584.14 549.74,-578.14 555.74,-578.14" style=""/>
+<text text-anchor="middle" x="689.24" y="-784.54" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IErc20  (iface)</text>
+</g>
+<g id="clust1" class="cluster" data-name="clusterInterestRateModel">
+
+<path fill="#445773" stroke="#445773" d="M250.24,-577.64C250.24,-577.64 486.24,-577.64 486.24,-577.64 492.24,-577.64 498.24,-583.64 498.24,-589.64 498.24,-589.64 498.24,-695.64 498.24,-695.64 498.24,-701.64 492.24,-707.64 486.24,-707.64 486.24,-707.64 250.24,-707.64 250.24,-707.64 244.24,-707.64 238.24,-701.64 238.24,-695.64 238.24,-695.64 238.24,-589.64 238.24,-589.64 238.24,-583.64 244.24,-577.64 250.24,-577.64" style=""/>
+<text text-anchor="middle" x="368.24" y="-691.04" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">InterestRateModel  (iface)</text>
+</g>
+<!-- InterestRateModel.getBorrowRate -->
+<g id="node1" class="node" pointer-events="visible" data-name="InterestRateModel.getBorrowRate">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="316.48" cy="-603.28" rx="70.07" ry="18"/>
+<text text-anchor="middle" x="316.48" y="-599.08" font-family="Times,serif" font-size="14.00">getBorrowRate</text>
+</g>
+<!-- InterestRateModel.getSupplyRate -->
+<g id="node2" class="node" pointer-events="visible" data-name="InterestRateModel.getSupplyRate">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="422.48" cy="-657.28" rx="67.8" ry="18"/>
+<text text-anchor="middle" x="422.48" y="-653.08" font-family="Times,serif" font-size="14.00">getSupplyRate</text>
+</g>
+<!-- IErc20.totalSupply -->
+<g id="node3" class="node" pointer-events="visible" data-name="IErc20.totalSupply">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="732.98" cy="-701.78" rx="55.64" ry="18"/>
+<text text-anchor="middle" x="732.98" y="-697.58" font-family="Times,serif" font-size="14.00">totalSupply</text>
+</g>
+<!-- IErc20.balanceOf -->
+<g id="node4" class="node" pointer-events="visible" data-name="IErc20.balanceOf">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="699.98" cy="-603.78" rx="50.92" ry="18"/>
+<text text-anchor="middle" x="699.98" y="-599.58" font-family="Times,serif" font-size="14.00">balanceOf</text>
+</g>
+<!-- IErc20.transfer -->
+<g id="node5" class="node" pointer-events="visible" data-name="IErc20.transfer">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="591.98" cy="-603.78" rx="40.55" ry="18"/>
+<text text-anchor="middle" x="591.98" y="-599.58" font-family="Times,serif" font-size="14.00">transfer</text>
+</g>
+<!-- IErc20.allowance -->
+<g id="node6" class="node" pointer-events="visible" data-name="IErc20.allowance">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="776.98" cy="-652.78" rx="50.36" ry="18"/>
+<text text-anchor="middle" x="776.98" y="-648.58" font-family="Times,serif" font-size="14.00">allowance</text>
+</g>
+<!-- IErc20.approve -->
+<g id="node7" class="node" pointer-events="visible" data-name="IErc20.approve">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="621.98" cy="-743.78" rx="42.28" ry="18"/>
+<text text-anchor="middle" x="621.98" y="-739.58" font-family="Times,serif" font-size="14.00">approve</text>
+</g>
+<!-- IErc20.decimals -->
+<g id="node8" class="node" pointer-events="visible" data-name="IErc20.decimals">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="771.98" cy="-750.78" rx="45.22" ry="18"/>
+<text text-anchor="middle" x="771.98" y="-746.58" font-family="Times,serif" font-size="14.00">decimals</text>
+</g>
+<!-- IErc20.transferFrom -->
+<g id="node9" class="node" pointer-events="visible" data-name="IErc20.transferFrom">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="647.98" cy="-652.78" rx="61.41" ry="18"/>
+<text text-anchor="middle" x="647.98" y="-648.58" font-family="Times,serif" font-size="14.00">transferFrom</text>
+</g>
+<!-- ICERC20.mint -->
+<g id="node10" class="node" pointer-events="visible" data-name="ICERC20.mint">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="37.48" cy="-408.78" rx="28.99" ry="18"/>
+<text text-anchor="middle" x="37.48" y="-404.58" font-family="Times,serif" font-size="14.00">mint</text>
+</g>
+<!-- ICERC20.borrow -->
+<g id="node11" class="node" pointer-events="visible" data-name="ICERC20.borrow">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="452.48" cy="-201.78" rx="38.86" ry="18"/>
+<text text-anchor="middle" x="452.48" y="-197.58" font-family="Times,serif" font-size="14.00">borrow</text>
+</g>
+<!-- ICERC20.underlying -->
+<g id="node12" class="node" pointer-events="visible" data-name="ICERC20.underlying">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="457.48" cy="-147.78" rx="52.75" ry="18"/>
+<text text-anchor="middle" x="457.48" y="-143.58" font-family="Times,serif" font-size="14.00">underlying</text>
+</g>
+<!-- ICERC20.totalBorrows -->
+<g id="node13" class="node" pointer-events="visible" data-name="ICERC20.totalBorrows">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="456.48" cy="-480.78" rx="61.42" ry="18"/>
+<text text-anchor="middle" x="456.48" y="-476.58" font-family="Times,serif" font-size="14.00">totalBorrows</text>
+</g>
+<!-- ICERC20.totalFuseFees -->
+<g id="node14" class="node" pointer-events="visible" data-name="ICERC20.totalFuseFees">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="81.48" cy="-462.78" rx="64.29" ry="18"/>
+<text text-anchor="middle" x="81.48" y="-458.58" font-family="Times,serif" font-size="14.00">totalFuseFees</text>
+</g>
+<!-- ICERC20.repayBorrow -->
+<g id="node15" class="node" pointer-events="visible" data-name="ICERC20.repayBorrow">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="448.48" cy="-93.78" rx="61.97" ry="18"/>
+<text text-anchor="middle" x="448.48" y="-89.58" font-family="Times,serif" font-size="14.00">repayBorrow</text>
+</g>
+<!-- ICERC20.totalReserves -->
+<g id="node16" class="node" pointer-events="visible" data-name="ICERC20.totalReserves">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="80.48" cy="-102.78" rx="63.12" ry="18"/>
+<text text-anchor="middle" x="80.48" y="-98.58" font-family="Times,serif" font-size="14.00">totalReserves</text>
+</g>
+<!-- ICERC20.exchangeRateCurrent -->
+<g id="node17" class="node" pointer-events="visible" data-name="ICERC20.exchangeRateCurrent">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="381.48" cy="-372.78" rx="94.88" ry="18"/>
+<text text-anchor="middle" x="381.48" y="-368.58" font-family="Times,serif" font-size="14.00">exchangeRateCurrent</text>
+</g>
+<!-- ICERC20.totalAdminFees -->
+<g id="node18" class="node" pointer-events="visible" data-name="ICERC20.totalAdminFees">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="107.48" cy="-210.78" rx="72.95" ry="18"/>
+<text text-anchor="middle" x="107.48" y="-206.58" font-family="Times,serif" font-size="14.00">totalAdminFees</text>
+</g>
+<!-- ICERC20.fuseFeeMantissa -->
+<g id="node19" class="node" pointer-events="visible" data-name="ICERC20.fuseFeeMantissa">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="102.48" cy="-156.78" rx="75.88" ry="18"/>
+<text text-anchor="middle" x="102.48" y="-152.58" font-family="Times,serif" font-size="14.00">fuseFeeMantissa</text>
+</g>
+<!-- ICERC20.adminFeeMantissa -->
+<g id="node20" class="node" pointer-events="visible" data-name="ICERC20.adminFeeMantissa">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="281.48" cy="-102.78" rx="83.97" ry="18"/>
+<text text-anchor="middle" x="281.48" y="-98.58" font-family="Times,serif" font-size="14.00">adminFeeMantissa</text>
+</g>
+<!-- ICERC20.exchangeRateStored -->
+<g id="node21" class="node" pointer-events="visible" data-name="ICERC20.exchangeRateStored">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="431.48" cy="-426.78" rx="90.31" ry="18"/>
+<text text-anchor="middle" x="431.48" y="-422.58" font-family="Times,serif" font-size="14.00">exchangeRateStored</text>
+</g>
+<!-- ICERC20.accrualBlockNumber -->
+<g id="node22" class="node" pointer-events="visible" data-name="ICERC20.accrualBlockNumber">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="290.48" cy="-156.78" rx="93.74" ry="18"/>
+<text text-anchor="middle" x="290.48" y="-152.58" font-family="Times,serif" font-size="14.00">accrualBlockNumber</text>
+</g>
+<!-- ICERC20.redeemUnderlying -->
+<g id="node23" class="node" pointer-events="visible" data-name="ICERC20.redeemUnderlying">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="244.48" cy="-453.78" rx="83.37" ry="18"/>
+<text text-anchor="middle" x="244.48" y="-449.58" font-family="Times,serif" font-size="14.00">redeemUnderlying</text>
+</g>
+<!-- ICERC20.balanceOfUnderlying -->
+<g id="node24" class="node" pointer-events="visible" data-name="ICERC20.balanceOfUnderlying">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="174.48" cy="-399.78" rx="94.89" ry="18"/>
+<text text-anchor="middle" x="174.48" y="-395.58" font-family="Times,serif" font-size="14.00">balanceOfUnderlying</text>
+</g>
+<!-- ICERC20.reserveFactorMantissa -->
+<g id="node25" class="node" pointer-events="visible" data-name="ICERC20.reserveFactorMantissa">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="295.48" cy="-210.78" rx="98.41" ry="18"/>
+<text text-anchor="middle" x="295.48" y="-206.58" font-family="Times,serif" font-size="14.00">reserveFactorMantissa</text>
+</g>
+<!-- ICERC20.borrowBalanceCurrent -->
+<g id="node26" class="node" pointer-events="visible" data-name="ICERC20.borrowBalanceCurrent">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="332.48" cy="-318.78" rx="99.55" ry="18"/>
+<text text-anchor="middle" x="332.48" y="-314.58" font-family="Times,serif" font-size="14.00">borrowBalanceCurrent</text>
+</g>
+<!-- ICERC20.interestRateModel -->
+<g id="node27" class="node" pointer-events="visible" data-name="ICERC20.interestRateModel">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="135.48" cy="-345.78" rx="82.24" ry="18"/>
+<text text-anchor="middle" x="135.48" y="-341.58" font-family="Times,serif" font-size="14.00">interestRateModel</text>
+</g>
+<!-- ICERC20.initialExchangeRateMantissa -->
+<g id="node28" class="node" pointer-events="visible" data-name="ICERC20.initialExchangeRateMantissa">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="195.48" cy="-264.78" rx="124.41" ry="18"/>
+<text text-anchor="middle" x="195.48" y="-260.58" font-family="Times,serif" font-size="14.00">initialExchangeRateMantissa</text>
+</g>
+<!-- ICERC20.repayBorrowBehalf -->
+<g id="node29" class="node" pointer-events="visible" data-name="ICERC20.repayBorrowBehalf">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="428.48" cy="-264.78" rx="87.95" ry="18"/>
+<text text-anchor="middle" x="428.48" y="-260.58" font-family="Times,serif" font-size="14.00">repayBorrowBehalf</text>
+</g>
+<!-- key -->
+<g id="node30" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="715.29,-111.14 585.29,-111.14 585.29,-23.14 715.29,-23.14 715.29,-111.14"/>
+<text text-anchor="start" x="634.93" y="-92.54" font-family="Times,serif" font-size="14.00">Internal Call</text>
+<text text-anchor="start" x="631.04" y="-72.54" font-family="Times,serif" font-size="14.00">External Call</text>
+<text text-anchor="start" x="608.49" y="-52.54" font-family="Times,serif" font-size="14.00">Defined Contract</text>
+<text text-anchor="start" x="594.89" y="-32.54" font-family="Times,serif" font-size="14.00">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node31" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="778.46,-96.03 724.46,-96.03 724.46,-8.03 778.46,-8.03 778.46,-96.03"/>
+<text text-anchor="start" x="741.46" y="-77.43" font-family="Times,serif" font-size="14.00">   </text>
+<text text-anchor="start" x="741.46" y="-57.43" font-family="Times,serif" font-size="14.00">   </text>
+<polygon fill="#445773" stroke="transparent" points="739.46,-32.03 739.46,-52.03 764.46,-52.03 764.46,-32.03 739.46,-32.03"/>
+<text text-anchor="start" x="741.46" y="-37.43" font-family="Times,serif" font-size="14.00">   </text>
+<polygon fill="none" stroke="#e8726d" points="741.46,-14.03 741.46,-30.03 762.46,-30.03 762.46,-14.03 741.46,-14.03"/>
+</g>
+<g id="edge1" class="edge" data-name="key-&gt;key2" data-comment="key2">
+
+<path fill="none" stroke="rgb(27, 198, 166)" stroke-width="2" d="M707.29,-97.14C707.29,-97.14 720.81,-90.79 730.32,-86.32"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="731.89,-89.45 739.46,-82.03 728.92,-83.11 731.89,-89.45"/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<!-- key&#45;&gt;key2 -->
+<g id="edge2" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M707.29,-77.14C707.29,-77.14 720.81,-70.79 730.32,-66.32"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="731.89,-69.45 739.46,-62.03 728.92,-63.11 731.89,-69.45"/>
+</g>
+</g>
+</svg>
