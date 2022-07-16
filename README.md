@@ -37,7 +37,7 @@ That way, base contracts have different priorities, so the order of inheritance 
 
 ![A Call Graph of Interfaces.sol](Inheritance_Graph.svg)
 
-## Interfaces cannot inherit [SWC-125](https://swcregistry.io/docs/SWC-125)
+## Interface cannot inherit [SWC-125](https://swcregistry.io/docs/SWC-125)
 ## Incorrect Behavior Order
 
 
